@@ -1,0 +1,23 @@
+#title {
+    text-align: center;
+    color: lightgray;
+}
+
+#canvas-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    image-rendering: pixelated;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: darkslategray;
+}
+
+body {
+    background-color: black;
+}
